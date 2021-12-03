@@ -69,7 +69,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1100px;
     margin: 0 auto;
 }
 /* .header{
@@ -149,24 +149,47 @@ header .div{
     font-size: 20px;
 }
 footer {
-    width: 65%;
+    width: 100%;
     background: black;
-    margin-left: 18.5%;
+    margin-left: 5.5%;
 }
 
 footer nav {
-    width: 90%;
+    width: 100%;
     display: flex;
     
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 18px;
+    margin-top: 15px;
     
    
 }
 
 footer nav a {
+    color: white;
+    text-decoration: none;
+}
+footer .about {
+    width: 80%;
+    background: black;
+    /* margin-left: 10.5%; */
+}
+
+footer .about nav {
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    /* align-items: flex-start;
+    padding: 20px 2%; */
+    font-size: 14px;
+    
+   
+}
+
+footer .about nav a {
     color: white;
     text-decoration: none;
 }
@@ -176,55 +199,86 @@ footer nav a {
     background: teal;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box2{
     width: 12.5%;
     height: 100px;
     background: gold;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box3{
     width: 12.5%;
     height: 100px;
     background: cadetblue;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box4{
     width: 12.5%;
     height: 100px;
     background: coral;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box5{
     width: 12.5%;
     height: 100px;
     background: crimson;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box6{
     width: 12.5%;
     height: 100px;
     background: forestgreen;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box7{
     width: 12.5%;
     height: 100px;
     background: darkorchid;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .box8{
     width: 12.5%;
     height: 100px;
     background: hotpink;
     margin: 20px 2.5%;
-    color: white;
+    color: white;display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .box9{
     width: 12.5%;
@@ -232,6 +286,9 @@ footer nav a {
     background: indigo;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box10{
     width: 12.5%;
@@ -239,6 +296,9 @@ footer nav a {
     background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  
 /* 
@@ -255,6 +315,7 @@ header nav{
     width:85%;
     /* z-index:999; */
     background-color:white;
+    font-size: 18px;
     /* top: 0; */
 }
 .links{
@@ -264,7 +325,7 @@ header nav{
     
     margin-right: 200px;
     margin-top: 30px;
-    margin-left: 220px;
+    margin-left: 300px;
 }
 .imgT{
     margin-left: 395px;
@@ -293,7 +354,7 @@ a:hover{
       
     width: 70%;
     margin-bottom: 55px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 305px;
 }
 
@@ -311,9 +372,10 @@ a:hover{
 }
 .top1{
     width: 65%;
-    margin-left: 25%;
+    margin-left: 18.5%;
     text-align: center;
     margin-bottom: 50px;
+    border-bottom: 1px dashed black;
     
 }
 .topAbout div{
@@ -344,6 +406,8 @@ a:hover{
 .top1  p{
     text-align: center;
     width: 75%;
+    margin-left: 20%;
+    padding-bottom: 50px;
 }
 .topAbout h2{
     text-align: left;
@@ -354,12 +418,14 @@ a:hover{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 20%;
     
 }
 .div .strategy{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 .topAbout .div .strategy img{
@@ -374,6 +440,7 @@ button{
     font-weight: bold;
     font-size:18px;
     margin-top:20px;
+    margin-bottom: 15px;
 }
 /* .img-with-text {
     text-align: justify;
@@ -423,6 +490,7 @@ button{
 }
 .strategy{
     margin-bottom: 50px;
+    border-bottom: 1px dashed black;
 }
 .strategy p{
     width: 95%;
@@ -433,6 +501,7 @@ button{
 }
 .work{
     margin-bottom: 50px;
+    border-bottom: 1px dashed black;
 }
 .work p{
     width: 95%;
@@ -443,6 +512,7 @@ button{
 }
 .places{
     margin-bottom: 50px;
+    border-bottom: 1px dashed black;
 }
 .places p{
     width:95%;
@@ -453,6 +523,7 @@ button{
 }
 .collab{
     margin-bottom: 50px;
+    border-bottom: 1px dashed black;
 }
 .collab p{
     width:95%;
