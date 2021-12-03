@@ -24,10 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} */
 body {
 	line-height: 1;
 }
@@ -70,6 +70,20 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* .header{
+    display: flex;
+
+}
+
+header .div{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+} */
 
 .top-content {
     display: flex;
@@ -213,4 +227,59 @@ width: 12.5%;
     background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
+}
+ 
+/* 
+.imgT{
+    padding-top:25px;
+    margin-left: 50px;
+    width:80%;
+} */
+header nav{
+    display:flex;
+    justify-content: space-between;
+    padding:2% 0;
+    position: fixed;
+    width:100%;
+    z-index:999;
+    background-color:white;
+    top: 0;
+}
+.links{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.imgT{
+    margin-left: 75px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+    transition:2s;
+}
+a:hover{
+    color:red;
+}
+.bg-img{
+    
+    
+    background-repeat: no-repeat;
+    background-position:center;
+   
+    background-attachment: fixed;
+    
+}
+.bg-img img{
+    height: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;    
+    width: 85%;
+    margin-bottom: 55px;
+
 }
