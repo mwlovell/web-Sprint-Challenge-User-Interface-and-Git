@@ -303,30 +303,129 @@ a:hover{
 }
 .top1{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+    
 }
 .topAbout div{
     display: flex;
-    width: 50%;
-    height: 50vh;
+    width: 45%;
+    height: 45%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
     
 }
 
 .topAbout div p{
-    text-align: center;
+    text-align: left;
 }
 .top1  p{
     text-align: center;
+    width: 75%;
 }
 .topAbout h2{
-    text-align: center;
+    text-align: left;
+    width:100%;
 }
 .top1 h2{
+    width: 70%;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
     
+}
+.div .strategy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.topAbout .div .strategy img{
+    width: 100%;
+    height: 60vh;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    color: black;
+    font-weight: bold;
+    font-size:18px
+}
+/* .img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+} */
+.div .work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.topAbout .div .work img{
+    width: 100%;
+    height: 60vh;
+}
+.div .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.topAbout .div .contact img{
+    width: 100%;
+    height: 60vh;
+}
+.div .collab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.topAbout .div .collab img{
+    width: 100%;
+    height: 60vh;
+}
+.strategy img{
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+    
+}
+.strategy{
+    margin-bottom: 50px;
+}
+.work img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.work{
+    margin-bottom: 50px;
+}
+.places img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.places{
+    margin-bottom: 50px;
+}
+.collab img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.collab{
+    margin-bottom: 50px;
 }
